@@ -1,24 +1,24 @@
 # Credit Risk Classification System
 
-#Project Overview
+# Project Overview
 
 This project develops a Machine Learning-based Credit Risk Classification System that analyzes an applicant's personal and financial information and classifies the applicant into Low Credit Risk or High Credit Risk.
 
 The system uses a Random Forest Classifier to predict the credit-risk category.
 
-Problem Statement
+# Problem Statement
 
 Credit assessment involves several factors such as age, employment, housing, bank accounts, credit amount, loan duration, and loan purpose.
 
 Manually analyzing these factors can be time-consuming. This project provides a computerized system that processes applicant information and provides a credit-risk classification.
 
-Dataset
+# Dataset
 
 Dataset: German Credit Risk Dataset
 
 Target Variable: Risk
 
-Important Features:
+# Important Features:
 
 - Age
 - Sex
@@ -30,7 +30,7 @@ Important Features:
 - Duration
 - Purpose
 
-Project Workflow
+# Project Workflow
 
 - Data Loading
 - Data Cleaning
@@ -43,7 +43,7 @@ Project Workflow
 - Model Evaluation
 - Classification Report
 
-Technologies Used
+# Technologies Used
 
 Programming Language
 
@@ -56,24 +56,24 @@ Data Science & Machine Learning
 - Scikit-learn
 - Random Forest Classifier
 
-Web Technologies
+# Web Technologies
 
 - HTML
 - CSS
 - JavaScript
 
-Development Tools
+# Development Tools
 
 - Google Colab
 - GitHub
 
-Machine Learning Model
+# Machine Learning Model
 
 The project uses the Random Forest Classifier.
 
 Random Forest combines multiple decision trees to make a final classification. It is suitable for classification problems because it can learn patterns from multiple applicant and financial features.
 
-Data Preprocessing
+# Data Preprocessing
 
 The dataset is processed before training the model.
 
@@ -85,7 +85,7 @@ The preprocessing steps include:
 4. Separating input features and target variable
 5. Splitting the dataset into training and testing data
 
-Model Training
+# Model Training
 
 The dataset is divided into:
 
@@ -94,7 +94,7 @@ The dataset is divided into:
 
 The Random Forest model is trained using the training data and then tested using unseen testing data.
 
-Model Evaluation
+# Model Evaluation
 
 The model is evaluated using:
 
@@ -104,7 +104,7 @@ The model is evaluated using:
 - F1-Score
 - Classification Report
 
-System Working
+# System Working
 
 The web system follows this process:
 
@@ -114,7 +114,7 @@ The user enters applicant details such as age, gender, job, housing, credit amou
 
 The system processes the information and provides the corresponding credit-risk classification.
 
-Project Files
+# Project Files
 
 File| Description
 "index.html"| Creates the structure of the webpage
@@ -124,7 +124,7 @@ File| Description
 "german_credit_data.csv"| Contains the credit-risk dataset
 "README.md"| Contains project documentation
 
-Prediction Output
+# Prediction Output
 
 The system classifies an applicant into:
 
@@ -134,7 +134,7 @@ or
 
 High Credit Risk
 
-Advantages
+# Advantages
 
 - Faster credit-risk assessment
 - Reduces manual analysis
@@ -142,7 +142,7 @@ Advantages
 - Uses Machine Learning for classification
 - Provides quick prediction results
 
-Future Enhancements
+# Future Enhancements
 
 - Use a larger real-world dataset
 - Improve model performance
@@ -151,14 +151,13 @@ Future Enhancements
 - Deploy the system as an online application
 - Add graphical analysis and dashboards
 
-Conclusion
+# Conclusion
 
 The Credit Risk Classification System demonstrates how Machine Learning can be used to analyze applicant information and classify credit risk.
 
 The project combines Python, Pandas, NumPy, Scikit-learn, Random Forest, HTML, CSS, and JavaScript to create a complete credit-risk classification project.
 
-Author
+#Author
 
 Lahari Sanaga
-
 B.Tech – CSE (Data Science)
