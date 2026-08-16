@@ -157,7 +157,7 @@ The Credit Risk Classification System demonstrates how Machine Learning can be u
 
 The project combines Python, Pandas, NumPy, Scikit-learn, Random Forest, HTML, CSS, and JavaScript to create a complete credit-risk classification project.
 
-#Author
+# Author
 
 Lahari Sanaga
 B.Tech – CSE (Data Science)
